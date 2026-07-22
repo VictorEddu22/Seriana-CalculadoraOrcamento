@@ -55,3 +55,25 @@ Esta seção tem como finalidade apresentar as especificações do sistema de c�
 - RNF12: O sistema deve estar preparado para futuras integrações e novos serviços gráficos.
 
 ---
+
+### Regras de Negócio (RN) - dizem como querm que o sistema funcione.
+* RN01: O orçamento deve ter nome do serviço, cliente, quantidade e material selecionado.
+* RN02: O sistema deve verificar se já existe orçamento parecido feito anteriormente.
+* RN03: Todas as medidas devem ser convertidas para a mesma unidade antes do cálculo.
+* RN04: O cálculo de montagem deve considerar tamanho da peça, tamanho da chapa, sangria e abertura.
+* RN05: O sistema deve calcular o aproveitamento da chapa na posição normal e girada.
+* RN06: O sistema deve escolher automaticamente a montagem com maior aproveitamento.
+* RN07: A quantidade de chapas deve sempre ser arredondada para cima.
+* RN08: As perdas de produção devem ser adicionadas separadamente das chapas calculadas.
+* RN09: O custo da matéria-prima deve considerar chapas, perdas, substrato, tinta, embalagem e demais materiais.
+* RN10: O custo de produção deve considerar setup, impressão, corte, acabamento e mão de obra.
+* RN11: O custo de terceiros deve considerar frete, faca especial, fotolito/CTP e serviços externos.
+* RN12: O preço de custo deve ser calculado pela soma de Matéria-Prima + Produção + Terceiros.
+* RN13: O preço de venda deve considerar margem, comissões, impostos e juros.
+* RN14: O sistema não deve permitir preço de venda abaixo do custo.
+* RN15: A soma de margem, comissões, impostos e juros não pode ser igual ou superior a 100%.
+* RN16: O orçamento salvo deve manter os custos usados na data em que foi criado.
+* RN17: A versão enviada ao cliente não deve mostrar custo, margem, comissão ou dados internos.
+* RN18: Alterações em materiais, custos e percentuais devem afetar apenas novos orçamentos, não os antigos já salvos.
+
+---
