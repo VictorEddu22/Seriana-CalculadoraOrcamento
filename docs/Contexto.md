@@ -40,4 +40,18 @@ Esta seção tem como finalidade apresentar as especificações do sistema de c�
 
 ---
 
-### Requisitos Não Funcionais (RNF)
+### Requisitos Não Funcionais (RNF) - Como o sistema deve fazer
+- RNF01: O sistema deve ser simples e intuitivo para o orçamentista.
+- RNF02: O sistema deve calcular os valores rapidamente.
+- RNF03: O sistema deve garantir precisão nos cálculos de orçamento.
+- RNF04: O sistema deve validar campos obrigatórios antes de calcular.
+- RNF05: O sistema deve proteger custos, margens e comissões internas.
+- RNF06: O sistema deve salvar o histórico dos orçamentos com segurança.
+- RNF07: O sistema deve manter os valores originais de cada orçamento salvo.
+- RNF08: O sistema deve permitir atualização de materiais, máquinas e percentuais.
+- RNF09: O sistema deve gerar PDFs profissionais e legíveis.
+- RNF10: O sistema deve funcionar em computadores Windows.
+- RNF11: O sistema deve permitir backup dos dados.
+- RNF12: O sistema deve estar preparado para futuras integrações e novos serviços gráficos.
+
+---
