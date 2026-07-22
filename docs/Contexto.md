@@ -17,22 +17,26 @@ Público-alvo inicial e principal será o Orçamentista, isso com base no servi�
 Esta seção tem como finalidade apresentar as especificações do sistema de cálculo de orçamento. O objetivo é a definição e análise de elementos que orientam o desenvolvimento da solução especificando requisitos e restrições, a partir da perspectiva do usuário. 
 
 ### Requisitos Funcionais (RF) - O que o sistema deve fazer
-- RF01 : Adicionar nome do serviço + nome do cliente 
-- RF02 : Verificar se o trabalho já foi feito
-- RF03 : Mostrar trabalho feito com data 
-- RF04 : 
-- RF05 : Adicionar tamanho 
-- RF06 : Selecionar Setor de Produção (impressão e corte)
-- RF07 : Cálculo de montagem 
-- RF08 : Selecionar tipos de terceiros
-- RF09 : Adicionar Numero da OS
-- RF10 : Adicionar quantidade
-- RF11 : Selecionar material e chapas
-- RF12: Fazer cálculo de Matéria-Prima (aproveitamento da chapa, quantidade de chapas, perda de produção, custo do substrato, tinta, embalagem e demais materiais).
-- R13 : Fazer cálculo de Produção (tempo e custo da Mimaki JFX, tempo e custo da Esko ou Map Cut, setup, impressão, corte e acabamento).
-- RF14 : Fazer cálculo de Serviços Terceiros (frete, faca especial, fotolito/CTP e outros serviços externos).
-- RF15: Fazer cálculo de Preço de Venda (preço de custo, custo unitário, margem de lucro, comissões, impostos, taxa de juros, índice de venda, preço total e preço unitário de venda).
-- RF16 :
+* RF01: Adicionar nome do serviço e nome do cliente.
+* RF02: Verificar se o trabalho já foi feito anteriormente.
+* RF03: Mostrar trabalhos feitos com data, cliente, quantidade e preço.
+* RF04: Adicionar número da OS.
+* RF05: Adicionar tamanho do produto.
+* RF06: Adicionar quantidade solicitada.
+* RF07: Selecionar material e chapa.
+* RF08: Selecionar setor de produção, como impressão e corte.
+* RF09: Selecionar máquina ou processo, como Mimaki JFX, Esko ou Map Cut.
+* RF10: Fazer cálculo de montagem.
+* RF11: Calcular aproveitamento da chapa e quantidade de chapas.
+* RF12: Fazer cálculo de Matéria-Prima (aproveitamento da chapa, quantidade de chapas, perda de produção, custo do substrato, tinta, embalagem e demais materiais).
+* RF13: Fazer cálculo de Produção (tempo e custo da Mimaki JFX, tempo e custo da Esko ou Map Cut, setup, impressão, corte e acabamento).
+* RF14: Fazer cálculo de Serviços Terceiros (frete, faca especial, fotolito/CTP e outros serviços externos).
+* RF15: Fazer cálculo de Preço de Venda (preço de custo, custo unitário, margem de lucro, comissões, impostos, taxa de juros, índice de venda, preço total e preço unitário de venda).
+* RF16: Salvar e consultar orçamentos feitos.
+* RF17: Permitir duplicar orçamento anterior.
+* RF18: Gerar PDF do orçamento.
+* RF19: Gerar versão interna com custos e versão comercial para o cliente.
+
 
 ---
 
