@@ -56,7 +56,7 @@ Esta seção tem como finalidade apresentar as especificações do sistema de c�
 
 ---
 
-### Regras de Negócio (RN) - dizem como querm que o sistema funcione.
+### Regras de Negócio (RN) - Como uma empresa ou processo deve funcionar
 * RN01: O orçamento deve ter nome do serviço, cliente, quantidade e material selecionado.
 * RN02: O sistema deve verificar se já existe orçamento parecido feito anteriormente.
 * RN03: Todas as medidas devem ser convertidas para a mesma unidade antes do cálculo.
