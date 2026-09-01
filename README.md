@@ -1,6 +1,5 @@
 # Sistema de Orçamento - Seriana
 
----
 ## Introdução:
 A Seriana utiliza atualmente uma planilha de Excel para realizar orçamentos, calcular o aproveitamento de materiais e comparar diferentes rotas de produção.
 
