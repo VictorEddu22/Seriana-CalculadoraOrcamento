@@ -1,4 +1,4 @@
-# Seriana Calculadora de Orçamento
+# Sistema de Orçamento - Seriana
 
 ---
 ## Introdução:
