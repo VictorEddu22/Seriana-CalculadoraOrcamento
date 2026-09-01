@@ -15,8 +15,9 @@ Por isso, será desenvolvido um sistema web que transforme as regras e os cálcu
 ## Desenvolvedores e Orientadores:
 - Victor Eduardo Fernandes Nunes
 
-  
-## Instruções de utilização
+---
+
+# Instrução de Utilização
 em breve...
 
 
