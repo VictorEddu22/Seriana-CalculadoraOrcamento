@@ -1,21 +1,52 @@
 # Seriana Calculadora de Orçamento
+
 ---
+## Introdução:
+A Seriana utiliza atualmente uma planilha de Excel para realizar orçamentos, calcular o aproveitamento de materiais e comparar diferentes rotas de produção.
 
-Contexto - 
+A planilha recebe informações como formato e tamanho do produto, quantidade solicitada, material, gramatura, tamanho da chapa, sangria, tipo de corte e custos. Com esses dados, ela calcula a quantidade de produtos por chapa, chapas necessárias, desperdício, custos e horas de produção.
 
-Introdução: 
+Também são comparadas rotas envolvendo equipamentos e processos como JFX, Esko, Mapcut, Corte e Vinco e Guilhotina.
 
-Essa Documentação será para a análise e desenvolvimento de um software para cálculos de orçamentos da Gráfica Seriana. Tem como objetivo ajudar o orçamentista a otimizar seu tempo e aproveitar cálculos já feitos de forma que agilize o trabalho e demanda geral. 
+Apesar de possuir cálculos avançados, a planilha apresenta limitações relacionadas ao controle de versões, segurança das fórmulas, acesso simultâneo, armazenamento dos orçamentos e facilidade de manutenção.
 
-Problema: 
+Por isso, será desenvolvido um sistema web que transforme as regras e os cálculos da planilha em uma aplicação centralizada, segura e simples de utilizar. O sistema terá interface visual, servidor
 
-O Orçamentista é diretamente afetado pelo problema de forma que a uma grande perda de tempo ao fazer os cálculos todos e após feitos ainda revisar se está correto, e com isso acaba afetando ou áreas da venda e pré-produção de diversos serviços, a solução seria criar usar um sistema integrado com a maioria dos setores da empresa para gerir e reduzir o tempo em tarefas muito repetitivas e mal-feitas. 
+## Desenvolvedores e Orientadores:
+- Victor Eduardo Fernandes Nunes
+- 
 
-Objetivo/ Justificativa: 
 
-O objetivo é criar um sistema para toda a empresa no qual possam melhorar e reduzir o tempo de produção e conseguir ter uma supervisão melhor sobre os processos que se iniciam a um serviço até o final, na sua entrega ao cliente. Inicialmente será projeto um modelo Piloto para testes no dia a dia da empresa, o Piloto será feito para calcular os serviços que possuem mais demanda dentro da empresa, que será o Wobler e a Testeira nas máquinas de impressão digital Mimaki JFX e máquinas de corte Esko e Map Cut. 
+## Instruções de utilização
 
-Público-Alvo: 
 
-Público-alvo inicial e principal será o Orçamentista, isso com base no serviço dele e que ele é o encarregado para fazer os cálculos que são feitos a mão que o sistema irá fazer.
-## s
+
+# Documentação
+
+<ol>
+<li><a href="docs/1-Contexto.md"> Documentação de Contexto</a></li>
+<li><a href="docs/2-Planejamento-Projeto.md"> Planejamento do Projeto de Software</a></li>
+<li><a href="docs/3-Especificação.md"> Especificação do Projeto de Software</a></li>
+<li><a href="docs/4-Projeto-Solucao.md"> Projetos do Software (Arquitetura)</a></li>
+<li><a href="docs/5-Interface-Sistema.md"> Interface do Sistema</a></li>
+<li><a href="docs/6-Testes.md"> Teste de Usabilidade do Software</a></li>
+<li><a href="docs/7-Conclusão.md"> Conclusão</a></li>
+<li><a href="docs/8-Referências.md"> Referências</a></li>
+</ol>
+
+# Código
+
+<li><a href="src/README.md"> Código Fonte</a></li>  
+
+
+## Histórico de versões 
+
+* 0.1.1
+    * CHANGE: Atualização das documentações. Código permaneceu inalterado.
+* 0.1.0
+    * Implementação da funcionalidade X pertencente ao processo P.
+* 0.0.1
+    * Trabalhando na modelagem do processo de negócio.
+
+
+
